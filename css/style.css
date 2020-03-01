@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css?family=El+Messiri|Lalezar|Tajawal&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'El Messiri';
+}
+
+@media (min-width: 100px) {
+  .grid1 {
+    margin: auto;
+    margin-bottom: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid1 img {
+    width: 90%;
+    margin-left: 0%;
+    margin-top: 20%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  .grid1 .text1 {
+    font-family: 'El Messiri';
+    margin-top: 10%;
+  }
+  .grid1 .text1 h1 {
+    font-size: 30px;
+    margin-top: -5%;
+  }
+  .grid1 .text1 p {
+    font-size: 15px;
+    margin-top: 1%;
+  }
+  .grid2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    text-align: right;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid2 .image {
+    text-align: center;
+  }
+  .grid2 img {
+    width: 80%;
+    margin-left: auto;
+    margin-top: 10%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  .grid2 .text2,
+  .grid2 .text4,
+  .grid2 .text6,
+  .grid2 .text8 {
+    grid-column: auto;
+    margin-left: auto;
+  }
+  .grid2 .text3,
+  .grid2 .text5,
+  .grid2 .text7,
+  .grid2 .text9 {
+    grid-column: auto;
+    margin-right: auto;
+  }
+  .grid2 .text2 {
+    grid-row: auto;
+    margin-top: auto;
+  }
+  .grid2 .text3 {
+    grid-row: auto;
+  }
+  .grid2 .text4 {
+    grid-row: auto;
+  }
+  .grid2 .text5 {
+    grid-row: auto;
+  }
+  .grid2 .text6 {
+    grid-row: auto;
+  }
+  .grid2 .text7 {
+    grid-row: auto;
+  }
+  .grid2 .text8 {
+    grid-row: auto;
+  }
+  .grid2 .text9 {
+    grid-row: auto;
+  }
+  .grid2 .text10 {
+    grid-row: auto;
+  }
+  .grid2 .image2,
+  .grid2 .image4,
+  .grid2 .image6,
+  .grid2 .image8 {
+    grid-column: auto;
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+  }
+  .grid2 .image3,
+  .grid2 .image5,
+  .grid2 .image7,
+  .grid2 .image9 {
+    grid-column: auto;
+  }
+  .grid2 .textbox {
+    margin: auto;
+    padding: 0%;
+  }
+  .grid2 .textbox p {
+    padding: 1% 10% 10% 9%;
+    line-height: 1.7em;
+    font-size: 20px;
+    font-family: 'Tajawal';
+  }
+  .grid2 .textbox h1 {
+    font-size: 30px;
+    margin-left: 10%;
+    padding-right: 10%;
+    padding-top: 0%;
+    font-weight: light;
+    text-align: right;
+    padding-bottom: 2%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid1 img {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 10%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  .grid1 .text1 {
+    font-family: 'El Messiri';
+    margin-top: 10%;
+  }
+  .grid1 .text1 h1 {
+    font-size: 75px;
+    margin-top: -15%;
+  }
+  .grid1 .text1 p {
+    font-size: 25px;
+    margin-top: 1%;
+  }
+  .grid2 {
+    margin: auto 3%;
+    margin-bottom: 10%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 50px;
+    text-align: right;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid2 .image {
+    text-align: center;
+  }
+  .grid2 .image img {
+    width: 85%;
+    margin-top: 3%;
+  }
+  .grid2 .text2,
+  .grid2 .text4,
+  .grid2 .text6,
+  .grid2 .text8,
+  .grid2 .text10 {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    margin-left: 0%;
+  }
+  .grid2 .text3,
+  .grid2 .text5,
+  .grid2 .text7,
+  .grid2 .text9 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .grid2 .text2 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    margin-top: 10%;
+  }
+  .grid2 .text3 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .grid2 .text4 {
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+  .grid2 .text5 {
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+  .grid2 .text6 {
+    -ms-grid-row: 5;
+    grid-row: 5;
+  }
+  .grid2 .text7 {
+    -ms-grid-row: 6;
+    grid-row: 6;
+  }
+  .grid2 .text8 {
+    -ms-grid-row: 7;
+    grid-row: 7;
+  }
+  .grid2 .text9 {
+    -ms-grid-row: 8;
+    grid-row: 8;
+  }
+  .grid2 .text10 {
+    -ms-grid-row: 9;
+    grid-row: 9;
+  }
+  .grid2 .image2,
+  .grid2 .image4,
+  .grid2 .image6,
+  .grid2 .image8,
+  .grid2 .image10 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .grid2 .image3,
+  .grid2 .image5,
+  .grid2 .image7,
+  .grid2 .image9 {
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .grid2 .image5 img {
+    margin-top: -5%;
+    width: 60%;
+  }
+  .grid2 .textbox {
+    margin: auto;
+    padding: 0%;
+  }
+  .grid2 .textbox p {
+    padding: 1% 5% 10% 9%;
+    line-height: 1.7em;
+    font-size: 25px;
+    font-family: 'Tajawal';
+  }
+  .grid2 .textbox h1 {
+    font-size: 45px;
+    margin-left: 10%;
+    text-align: right;
+    padding-top: 7%;
+    font-weight: light;
+    text-align: center;
+    padding-right: 0%;
+    padding-bottom: 2%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
